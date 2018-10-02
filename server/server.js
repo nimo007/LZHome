@@ -24,9 +24,9 @@ app.use(devMiddleware(compiler, {
 }))
 
 app.use(hotMiddleware(compiler, {
-    // log: console.log,
-    // path: '/__webpack_hmr',
-    // heartbeat: 10 * 1000
+    log: console.log,
+    path: '/__webpack_hmr',
+    heartbeat: 10 * 1000
 }))
 
 router.get('/favicon.ico', (ctx, next) => {

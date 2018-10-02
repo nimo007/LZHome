@@ -9,7 +9,6 @@
         "@babel/plugin-syntax-dynamic-import",
         ["@babel/plugin-proposal-decorators", { "legacy": true }],
         ["import", { "libraryName": "antd", "style": "css" }]
-//        ["import", { "libraryName": "antd-mobile", "style": "css" }]
     ],
     "env": {
         "development": {
